@@ -31,5 +31,7 @@ XOR result
 Explanation of XOR encryption with different length text and keys
 
 ```assembly
-XOR encryption works when you have different length text and keys by either shortening or repeating keys. When a text is shorter than a key, the key can be cut off to be the same length as the text. On the other hand, if the text is longer than the key, the key can be repeated until it is the same length as the text. 
+XOR encryption works when you have different length text and keys by either shortening or repeating keys.
+When a text is shorter than a key, the key can be cut off to be the same length as the text.
+On the other hand, if the text is longer than the key, the key can be repeated until it is the same length as the text. 
 ```
