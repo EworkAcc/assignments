@@ -37,7 +37,9 @@ Using XOR to do decryption
 Explanation of XOR encryption with different length text and keys
 
 ```
-XOR encryption works when you have different length text and keys by either shortening or repeating keys. When a text is shorter than a key, the key can be cut off to be the same length as the text. On the other hand, if the text is longer than the key, the key can be repeated until it is the same length as the text. 
+XOR encryption works when you have different length text and keys by either shortening or repeating keys.
+When a text is shorter than a key, the key can be cut off to be the same length as the text.
+On the other hand, if the text is longer than the key, the key can be repeated until it is the same length as the text. 
 ```
 
 Flowchart
@@ -47,5 +49,9 @@ Flowchart
 Challenges
 
 ```
-
+I faced a few challenges. To start, I struggled to figure out what words to use.
+I chose neovim and binary, because I think they are quite related to programming and this assignment.
+This other issue I had was figuring out how to use code blocks in github.
+This was an issue because I mistakenly forgot to make the file a markdown and instead just left it without the file extension.
+This left the file unable to make code blocks, which was an issue I sat with for quite along period of time. 
 ```
