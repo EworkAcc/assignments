@@ -31,3 +31,10 @@ Codename
 ```assembly
 65-70-68-72-61-69-6D-11111011010
 ```
+Challenges I faced
+
+When I was converting to hexadecimal I struggled to remember which number was the alphabet equivalent to each number. I wasn't sure when I should put a letter or a number. In addition I was forced to look up an ASCII table in order to figure out the decimal equivalent of a so that I could figure out the decimal equivalent for the rest of the numbers. 
+
+Flowchart
+
+<img width="640" height="760" alt="Blank diagram (1)" src="https://github.com/user-attachments/assets/0899b805-4883-4d30-a15d-535847f64c88" />
