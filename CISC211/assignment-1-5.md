@@ -21,4 +21,4 @@ During this activity the challenge I faced was figuring out how to simplify the 
 
 Flowchart
 
-<img width="681" height="992" alt="Blank diagram" src="https://github.com/user-attachments/assets/2af37dd1-59c2-49a4-b55f-c4bb83333ec3" />
+<img width="681" height="992" alt="Blank diagram (1)" src="https://github.com/user-attachments/assets/ce1fbd6d-94dc-43ef-b000-87668baea1d0" />
