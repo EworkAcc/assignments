@@ -60,7 +60,7 @@ On the other hand, if the text is longer than the key, the key can be repeated u
 
 Flowchart
 
-<img width="467" height="930" alt="Blank diagram" src="https://github.com/user-attachments/assets/445b0d04-f8e9-4b31-ae2a-c96fbac1e3c5" />
+<img width="467" height="1092" alt="Blank diagram" src="https://github.com/user-attachments/assets/667beb74-5b0b-405e-94b1-9df812877de4" />
 
 Challenges
 
