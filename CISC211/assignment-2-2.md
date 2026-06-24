@@ -2,7 +2,7 @@
 
 Challenges I faced
 ```
-Some challenges I faced included learni nghow to use assembly. Because I haven't worked with assembly in a while, it was a bit difficult to adjust. In addition relearning took a while. After that, I realized I had been writing assembly as if I was writing 64 bit assembly. This meant that when I finally moved to Juypter Lab, my program didn't work. Luckily the fix was quite easy and I just had to swap the register names and change syscall to int 0x80.
+Some challenges I faced included learning how to use assembly. Because I haven't worked with assembly in a while, it was a bit difficult to adjust. After that, I realized I had been writing assembly as if I was writing 64 bit assembly. This meant that when I finally moved to Juypter Lab, my program didn't compile because it was the wrong version. Luckily the fix was quite easy and I just had to swap the register names and change syscall to int 0x80. Overall, I didn't run into many challenges and I improved at assembly.
 ```
 
 ```assembly
