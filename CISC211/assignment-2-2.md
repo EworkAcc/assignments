@@ -2,7 +2,7 @@
 
 Challenges I faced
 ```
-Some challenges I faced included learni nghow to use assembly. Because I haven't worked with assembly in a while, it was a bit difficult to adjust. In addition relearning took a while. After that, one other issue I ran into was running the file. My pc runs windows and it was quite annoying to setup mingw to correctly work and run my assembly files. The caused me to utilize my laptop instead. I ended up setting up keymappings to run simple assembly files with Neovim. Overall these were the main issues I ran into.  
+Some challenges I faced included learni nghow to use assembly. Because I haven't worked with assembly in a while, it was a bit difficult to adjust. In addition relearning took a while. After that, I realized I had been writing assembly as if I was writing 64 bit assembly. This meant that when I finally moved to Juypter Lab, my program didn't work. Luckily the fix was quite easy and I just had to swap the register names and change syscall to int 0x80.
 ```
 
 ```assembly
@@ -18,26 +18,25 @@ section .text
   global _start
 
 _start:
-  mov rax, 1
-  mov rdi, 1
-  mov rsi, msg
-  mov rdx, msg_len
-  syscall
+  mov eax, 4
+  mov ebx, 1
+  mov ecx, msg
+  mov edx, msg_len
+  int 0x80
 
-  mov rax, 1
-  mov rdi, 1
-  mov rsi, msg2
-  mov rdx, msg2_len
-  syscall
+  mov eax, 4
+  mov ebx, 1
+  mov ecx, msg2
+  mov edx, msg2_len
+  int 0x80
 
-  mov rax, 1
-  mov rdi, 1
-  mov rsi, msg3
-  mov rdx, msg3_len
-  syscall
+  mov eax, 4
+  mov ebx, 1
+  mov ecx, msg3
+  mov edx, msg3_len
+  int 0x80
 
-  mov rax, 60
-  mov rdi, 0
-  syscall
-
+  mov eax, 1
+  mov ebx, 0
+  int 0x80
 ```
