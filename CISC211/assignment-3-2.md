@@ -1,7 +1,4 @@
 <img width="641" height="1012" alt="Blank diagram (1)" src="https://github.com/user-attachments/assets/88c741b1-f037-4e7a-8d9a-57dd70f98a59" />
-<img width="641" height="1012" alt="Blank diagram (1)" src="https://github.com/user-attachments/assets/e3594675-d1c1-414e-ae54-b8dee86bec1d" />
-<img width="641" height="1012" alt="Blank diagram (1)" src="https://github.com/user-attachments/assets/1dbf8d37-4371-4be2-8708-d4636d035cfd" />
-<img width="641" height="1012" alt="Blank diagram (1)" src="https://github.com/user-attachments/assets/d8e12cf6-4406-4fdb-9c8d-69b694b34d76" />
 
 Challenges
 For me, xor what quite easy to understand. I already understand bitwise operations so xor was very easy. On the other hand, TEST was a little bit more difficult to understand. Although I quickly understood the usage of the and operation, it took me a bit to understand where the result went and the purpose. After this, it also took me a bit to figure out a practical manor of demonstrating both the TEST and XOR instructions, but after I figred that out, the coding process was relatively simple. 
