@@ -1,4 +1,4 @@
-
+<img width="514" height="1058" alt="Blank diagram" src="https://github.com/user-attachments/assets/c5a0a377-0409-4f6d-b42b-ba2086e83e7e" />
 
 Challenges
 
