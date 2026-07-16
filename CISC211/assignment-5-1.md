@@ -1,5 +1,9 @@
 
 
+Challenges
+
+My main challenge was setting up the loop. When I originally set up the loop, I set the condition for the code ending to the register eax  being greater than the size of the array. The main issue of this  condition is that it didn't fit the initialization of eax. At the start of the code, eax was initialized to be the len of the list. These meant that the code would run forever and continue decreasing until the code threw an error. This was a huge issue that needed to be resolved. After this most of the code worked smoothly. 
+
 ```asm
 section .text
     global _start
