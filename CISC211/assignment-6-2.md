@@ -1,3 +1,4 @@
+```assembly
 section .text
     global _start
 _start:
@@ -46,3 +47,4 @@ section .data
     msg2 db "even"
     msg2_len equ $ - msg2
     newline db 0xa
+```
