@@ -1,6 +1,7 @@
 <img width="640" height="889" alt="Blank diagram" src="https://github.com/user-attachments/assets/a795d4e1-6806-494f-a09b-3c0e8e8fdac9" />
 
-
+Challenges
+In this assignment, I didn't face too many problems. Although few, there were some notable ones. For example, I originally started without the [] brackets when moving and comparing eax. This caused the actual memory addresses instead of the values to be moved into eax. Other than this there weren't very many issues.
 
 ```assembly
 section .text
