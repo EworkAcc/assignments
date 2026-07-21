@@ -1,3 +1,4 @@
+```assembly
 section .text
     global _start
 _start:
@@ -28,3 +29,4 @@ section .data
     curr_loop dd 0
     print db 'A'
     newline db 0xA
+```
