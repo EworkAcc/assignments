@@ -1,3 +1,7 @@
+<img width="640" height="889" alt="Blank diagram" src="https://github.com/user-attachments/assets/a795d4e1-6806-494f-a09b-3c0e8e8fdac9" />
+
+
+
 ```assembly
 section .text
     global _start
