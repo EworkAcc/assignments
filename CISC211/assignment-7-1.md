@@ -1,3 +1,9 @@
+<img width="640" height="800" alt="Blank diagram" src="https://github.com/user-attachments/assets/ba2d1f7f-be85-4206-bebd-7789bc866ece" />
+
+Challenges
+
+With this project, I didn't run into errors, I just ran into challenges. One of which was how to use the lseek system call. I didn't know how to use this yet, fortunately I was able to learn from the instructions. Otherwise there wasn't many challenges and my code ran very well. 
+
 ```asm
 section .text
 global _start
@@ -32,7 +38,7 @@ _start:
     mov edx, quote2_len
     int 0x80
 
-    mov eax, 56
+    mov eax, 6
     mov ebx, [file]
     int 0x80
 
