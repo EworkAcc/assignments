@@ -119,8 +119,8 @@ exit:
 section .data
     newline db 0xa
     filename db "output.txt", 0
-    secretword db "Secret!"
-    secretcode db "Encrypt"
+    secretword db "HELLO"
+    secretcode db "world"
     wordlength equ $ - secretcode
     message1 db "Plain text: "
     message1_len equ $ - message1
