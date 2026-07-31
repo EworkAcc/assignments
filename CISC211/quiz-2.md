@@ -1,3 +1,4 @@
+```asm
 section .text
 global _start
 _start:
@@ -26,3 +27,4 @@ section .data
     z dd 30
 section .bss
     result resd 1
+```
