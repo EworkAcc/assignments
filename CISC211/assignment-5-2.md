@@ -1,5 +1,3 @@
-<img width="477" height="900" alt="Blank diagram" src="https://github.com/user-attachments/assets/6de58b24-e526-4bfe-a379-fb432e8b5cc6" />
-
 Challenges 
 
 I faced few challenges while coding this. The main problem I faced was when finally running the code. This happened because I started by initializing the first two numbers in the Fibonacci sequence. This meant when I made the loop loop 10 times, instead of getting the 10th number it would get the 12th number. Because of this, I had to add a statement that would deduct two from the total loops to make sure it would get the correct number in the Fibonacci sequence. And after using GDB to check the value of result, it worked.
@@ -22,6 +20,8 @@ _start:
 Findings for Counter
 
 I found that the counter is similar to the non optimized code, but instead of incrementing eax, it decrements ecx. 
+
+<img width="477" height="900" alt="Blank diagram" src="https://github.com/user-attachments/assets/6de58b24-e526-4bfe-a379-fb432e8b5cc6" />
 
 Fibonacci
 
@@ -52,6 +52,8 @@ section .data
     loop_count dd 10
     result dd 0
 ```
+
+<img width="640" height="1045" alt="Blank diagram" src="https://github.com/user-attachments/assets/81bc8095-4659-4fc7-ad97-8b6a7f24c7e8" />
 
 Array
 
