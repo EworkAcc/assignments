@@ -128,7 +128,7 @@ section .data
     message2_len equ $ - message2
     message3 db "Encrypted text: "
     message3_len equ $ - message3
-    message4 db "Decrypted test: "
+    message4 db "Decrypted text: "
     message4_len equ $ - message4
 
 section .bss
